@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 .my-list{
     max-height: 200px;
     overflow-y: auto;
+=======
+.my-list{
+    max-height: 200px;
+    overflow-y: auto;
+>>>>>>> 8dcf84e53af6baab79ddf31d0b2f03c4a4cdf05b
 }

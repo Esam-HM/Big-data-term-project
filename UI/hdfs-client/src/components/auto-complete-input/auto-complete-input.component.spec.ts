@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AutoCompleteInputComponent } from './auto-complete-input.component';
@@ -21,3 +22,28 @@ describe('AutoCompleteInputComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+=======
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { AutoCompleteInputComponent } from './auto-complete-input.component';
+
+describe('AutoCompleteInputComponent', () => {
+  let component: AutoCompleteInputComponent;
+  let fixture: ComponentFixture<AutoCompleteInputComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [AutoCompleteInputComponent]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(AutoCompleteInputComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
+>>>>>>> 8dcf84e53af6baab79ddf31d0b2f03c4a4cdf05b

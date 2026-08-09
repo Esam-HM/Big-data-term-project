@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* You can add global styles to this file, and also import other style files */
 .custom-container{
     width: 100%;
@@ -23,4 +24,31 @@
         margin-left: auto;
         margin-right: auto;
     }
+=======
+/* You can add global styles to this file, and also import other style files */
+.custom-container{
+    width: 100%;
+}
+
+
+@media (min-width:800px) {
+    .custom-container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.custom-container-2{
+    width: 100%;
+}
+
+
+@media (min-width:1000px) {
+    .custom-container-2{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+>>>>>>> 8dcf84e53af6baab79ddf31d0b2f03c4a4cdf05b
 }

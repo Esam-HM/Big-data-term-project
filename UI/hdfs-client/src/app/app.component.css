@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nav-bar{
     height: 100px;
     background: linear-gradient(to right, #4f4f4f, #c4c4c4,#4f4f4f);
@@ -24,4 +25,32 @@
 .main{
     background: linear-gradient(to right, #fafafa, #c4c4c4,#fafafa);
     min-height: 100vh;
+=======
+.nav-bar{
+    height: 100px;
+    background: linear-gradient(to right, #4f4f4f, #c4c4c4,#4f4f4f);
+    box-shadow: 0px 2px 12px #000;
+}
+
+.title-font{
+    font-size: 50px;
+}
+
+.page-title{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 1px #000;
+}
+
+#font-blue{
+    color: #068EC4;
+}
+
+.main{
+    background: linear-gradient(to right, #fafafa, #c4c4c4,#fafafa);
+    min-height: 100vh;
+>>>>>>> 8dcf84e53af6baab79ddf31d0b2f03c4a4cdf05b
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .txt{
     font-size: 18px;
     font-weight: 400;
@@ -6,4 +7,14 @@
 ._spinner{
     width: 80px;
     height: 80px;
+=======
+.txt{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+._spinner{
+    width: 80px;
+    height: 80px;
+>>>>>>> 8dcf84e53af6baab79ddf31d0b2f03c4a4cdf05b
 }
