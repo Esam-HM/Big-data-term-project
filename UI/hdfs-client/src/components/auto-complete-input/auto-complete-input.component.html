@@ -8,19 +8,21 @@
     (focus)="onFocus()"
     (blur)="hideSuggestions()"
     autocomplete="off"
-  />
+    />
 
-  <!-- Suggestions Dropdown -->
-  <ul
-    class="list-group position-absolute w-100 z-2 my-list"
-    *ngIf="showSuggestions && filteredSuggestions.length > 0"
-  >
-    <li
-      class="list-group-item list-group-item-action"
-      *ngFor="let suggestion of filteredSuggestions"
-      (mousedown)="selectSuggestion(suggestion)"
-    >
-      {{ suggestion }}
-    </li>
-  </ul>
-</div>
+    <!-- Suggestions Dropdown -->
+    @if (showSuggestions && filteredSuggestions.length > 0) {
+      <ul
+        class="list-group position-absolute w-100 z-2 my-list"
+        >
+        @for (suggestion of filteredSuggestions; track suggestion) {
+          <li
+            class="list-group-item list-group-item-action"
+            (mousedown)="selectSuggestion(suggestion)"
+            >
+            {{ suggestion }}
+          </li>
+        }
+      </ul>
+    }
+  </div>

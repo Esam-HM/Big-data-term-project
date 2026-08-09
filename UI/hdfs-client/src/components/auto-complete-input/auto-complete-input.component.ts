@@ -1,10 +1,10 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
     selector: 'app-auto-complete-input',
-    imports: [FormsModule, CommonModule],
+    imports: [FormsModule],
     templateUrl: './auto-complete-input.component.html',
     styleUrl: './auto-complete-input.component.css'
 })

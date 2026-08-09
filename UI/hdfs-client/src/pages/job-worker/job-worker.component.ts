@@ -5,12 +5,12 @@ import { SpinnerComponent } from '../../components/spinner/spinner.component';
 import { AutoCompleteInputComponent } from '../../components/auto-complete-input/auto-complete-input.component';
 import { AlertMessageComponent } from '../../components/alert-message/alert-message.component';
 import { HdfsServicesService } from '../../services/hdfs-services.service';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule } from '@angular/forms';
 
 @Component({
     selector: 'app-job-worker',
-    imports: [FormsModule, CommonModule, SpinnerComponent, AutoCompleteInputComponent, AlertMessageComponent],
+    imports: [FormsModule, SpinnerComponent, AutoCompleteInputComponent, AlertMessageComponent],
     templateUrl: './job-worker.component.html',
     styleUrl: './job-worker.component.css'
 })
