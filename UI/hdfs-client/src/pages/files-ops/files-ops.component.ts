@@ -8,11 +8,10 @@ import { AlertMessageComponent } from '../../components/alert-message/alert-mess
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-files-ops',
-  standalone: true,
-  imports: [FormsModule, RouterLink, SpinnerComponent, AlertMessageComponent, AutoCompleteInputComponent],
-  templateUrl: './files-ops.component.html',
-  styleUrl: './files-ops.component.css'
+    selector: 'app-files-ops',
+    imports: [FormsModule, RouterLink, SpinnerComponent, AlertMessageComponent, AutoCompleteInputComponent],
+    templateUrl: './files-ops.component.html',
+    styleUrl: './files-ops.component.css'
 })
 export class FilesOpsComponent implements OnInit, OnDestroy {
   

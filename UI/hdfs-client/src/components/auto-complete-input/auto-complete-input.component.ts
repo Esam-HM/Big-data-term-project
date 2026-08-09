@@ -3,11 +3,10 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-auto-complete-input',
-  standalone: true,
-  imports: [FormsModule,CommonModule],
-  templateUrl: './auto-complete-input.component.html',
-  styleUrl: './auto-complete-input.component.css'
+    selector: 'app-auto-complete-input',
+    imports: [FormsModule, CommonModule],
+    templateUrl: './auto-complete-input.component.html',
+    styleUrl: './auto-complete-input.component.css'
 })
 export class AutoCompleteInputComponent {
   @Input() inputValue: string = "";

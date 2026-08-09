@@ -3,11 +3,10 @@ import { Component, EventEmitter, Input, OnChanges, OnDestroy, Output, SimpleCha
 import { Subscription, timer } from 'rxjs';
 
 @Component({
-  selector: 'app-alert-message',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './alert-message.component.html',
-  styleUrl: './alert-message.component.css'
+    selector: 'app-alert-message',
+    imports: [CommonModule],
+    templateUrl: './alert-message.component.html',
+    styleUrl: './alert-message.component.css'
 })
 export class AlertMessageComponent implements OnDestroy, OnChanges {
   @Input() alertType : number = 1;

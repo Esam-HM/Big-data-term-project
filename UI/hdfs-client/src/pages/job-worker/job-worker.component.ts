@@ -9,11 +9,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-job-worker',
-  standalone: true,
-  imports: [FormsModule, CommonModule, SpinnerComponent, AutoCompleteInputComponent, AlertMessageComponent],
-  templateUrl: './job-worker.component.html',
-  styleUrl: './job-worker.component.css'
+    selector: 'app-job-worker',
+    imports: [FormsModule, CommonModule, SpinnerComponent, AutoCompleteInputComponent, AlertMessageComponent],
+    templateUrl: './job-worker.component.html',
+    styleUrl: './job-worker.component.css'
 })
 export class JobWorkerComponent implements OnInit, OnDestroy {
   constructor(

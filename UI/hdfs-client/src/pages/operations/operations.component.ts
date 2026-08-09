@@ -9,11 +9,10 @@ import { AlertMessageComponent } from "../../components/alert-message/alert-mess
 import { IJob } from '../../models/job';
 
 @Component({
-  selector: 'app-operations',
-  standalone: true,
-  imports: [RouterLink, CommonModule, SpinnerComponent, AlertMessageComponent],
-  templateUrl: './operations.component.html',
-  styleUrl: './operations.component.css'
+    selector: 'app-operations',
+    imports: [RouterLink, CommonModule, SpinnerComponent, AlertMessageComponent],
+    templateUrl: './operations.component.html',
+    styleUrl: './operations.component.css'
 })
 export class OperationsComponent implements OnDestroy, OnInit{
 

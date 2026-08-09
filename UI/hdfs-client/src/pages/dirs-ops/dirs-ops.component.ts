@@ -7,11 +7,10 @@ import { Subscription } from 'rxjs';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-dirs-ops',
-  standalone: true,
-  imports: [RouterLink, SpinnerComponent, AutoCompleteInputComponent, AlertMessageComponent],
-  templateUrl: './dirs-ops.component.html',
-  styleUrl: './dirs-ops.component.css'
+    selector: 'app-dirs-ops',
+    imports: [RouterLink, SpinnerComponent, AutoCompleteInputComponent, AlertMessageComponent],
+    templateUrl: './dirs-ops.component.html',
+    styleUrl: './dirs-ops.component.css'
 })
 export class DirsOpsComponent implements OnInit, OnDestroy {
 

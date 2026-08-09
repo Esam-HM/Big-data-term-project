@@ -15,8 +15,8 @@ def sendSSHCommand(command: str):
         ssh.connect(
             hostname='localhost',
             port=2222,          
-            username='esam',
-            password='izot2001reis'
+            username='*****',
+            password='*********'
         )
 
         stdin, stdout, stderr = ssh.exec_command(command)
